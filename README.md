@@ -1,42 +1,30 @@
-# MERN Stack Boilerplate
+# Food Ordering Portal
 
-## Installations
+## Introduction
+This codebase contains the implementation for a Food Delivering Portal, where users can register as Buyers or Vendors and interact with each other to order and sell food items. The portal enables Buyers to browse and place orders for specific food items provided by Vendors, while Vendors can list and manage their available food items and process Buyer orders.
 
-### Node
+## Features
+- User registration and login functionality.
+- User roles: Buyers and Vendors.
+- Buyer features:
+  - View all food items available from Vendors.
+  - Place orders for specific food items.
+  - View and Update in App wallet balance.
+  - View Order status.
+- Vendor features:
+  - List and manage available food items.
+  - Add detailed descriptions, prices, and tags for food items.
+  - Process incoming orders from Buyers.
+  - Update order status and fulfillment/rejection.
 
-* For Linux:
-```
-curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
-sudo apt-get install -y nodejs
-```
+## Prerequisites
+Before using this codebase, ensure that you have the following prerequisites:
 
-* For Mac:
-```
-brew install node
-```
+- Node
+- MongoDB
+- React
 
-### MongoDB
-
-Install the community edition [here](https://docs.mongodb.com/manual/installation/#mongodb-community-edition-installation-tutorials).
-
-
-### React
-
-```
-npm install -g create-react-app
-```
-
-* To create a new React app:
-```
-create-react-app name_of_app
-```
-
-* To run the app, cd into the directory and do:
-```
-npm start
-```
-
-## Running the boilerplate
+## Running the Code
 
 * Run Mongo daemon:
 ```
